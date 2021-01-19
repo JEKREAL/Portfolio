@@ -33,9 +33,9 @@ CSS
 JAVASCRIPT 
 - Created the function to generate footer text to HTML
 
-====================
-About Page:
-====================
+
+==========About Page:==========
+
 1. Navigation bar left the same.
 
 2. Paragraphs and lists:
@@ -62,9 +62,8 @@ CSS
 4. Footer  left the same.
 
 
-====================
-Contact Page:
-====================
+=========Contact Page:===========
+
 1.Navigation bar left the same.
 
 2. Inputs form:
