@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box
+}
+html{
+  height: 100%;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("https://fonts.googleapis.com/css?family=Tangerine");
+}
+
+body {
+  background: -webkit-linear-gradient(left, #93B874, #C9DCB9); 
+  background: -o-linear-gradient(right, #93B874, #C9DCB9); 
+  background: -moz-linear-gradient(right, #93B874, #C9DCB9); 
+  background: linear-gradient(to right, #93B874, #C9DCB9); 
+  background-color: #93B874; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  padding-top:65px;
+  display: flex;
+  position: relative; 
+  font-family: 'Courier New', Courier, monospace;
+  min-height: 98%;
+ }
+
+
+/* NAVIGATION BAR */
+#navbar  {
+  display: flex;
+  background: #8d56ad;
+  height: 50px;
+  position:fixed;
+  top: 0; left: 0; right:0;
+  z-index: 1;
+}
+
+.nav-link {
+  color: rgb(243, 241, 241);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 2.5;
+  border: 2px inset black;
+  flex-grow: 1;
+  top: 50%;
+  text-align: center;
+  
+}
+nav a:hover {
+  color: #000;
+  
+}
+
+/* NAVIGATION BAR */
+
+/*INDEX.HTML*/
+/*Photo and icons */
+
+.profile-container {
+  display: flex;
+  justify-content:center;
+  margin: 80px 575px;
+  padding: 12px;
+  height: 475px;
+  border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); 
+  
+}
+.profile-container h1{
+  display: flex;
+  justify-content: center;
+  color:rgb(236, 243, 230);
+  font-size:23px;
+}
+/*SOME ANIMATION*/
+.me{
+  display:flex;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding:20px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.profile-container:active  {
+  opacity: 1;
+  background-color: #8d56ad;
+  cursor: pointer;  
+
+}
+
+.me:active {
+  opacity: 1;
+  background-color: #c04d18;
+  cursor: pointer;
+  width:350px;
+  height: 340px;
+  transform: rotate(180deg);
+}
+/*SOME ANIMATION*/
+.icons
+{ list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  padding: 10px;
+}
+
+.icons-link img {
+  max-width: 32px;
+  margin: 18px;
+  margin-right:1
+}
+/*Photo and icons */
+
+/*FOOTER*/
+.lang {
+  position: absolute;
+  bottom:0; left:0;
+  color:rgb(17, 17, 17);
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.bottom{
+  position: absolute;
+  bottom:30px;left: 10px;
+  margin-top:80px;
+  margin-left: 50px;
+  }
+
+.lists1 footer
+{
+  padding-top:30px;
+  
+}
+.bottom-link {
+  color:rgb(12, 12, 12);
+  border-right: 1px inset black;
+  text-decoration: none;
+  margin-top: 150px;
+  padding-right:10px;
+  padding-left:10px;
+ }
+
+/*FOOTER*/
+
+/*INDEX.HTML*/
+
+/*ABOUT.HTML*/
+
+.lists1{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left:10px;
+  margin-left: 50px;
+  color: rgb(243, 241, 241);
+  height: 900px; 
+}
+.lists1 li{
+  font-size: 20px;
+}
+
+.lists1 h2
+{ 
+  color: #000;
+  left:10px;
+  font-size: 30px;
+}
+/* Paragraph and lists */
+.info {
+  margin-top: 80px;
+}
+.p1 {
+  width: 400px;
+}
+.p2 {
+  width: 400px;
+  margin-top: -10px;
+}
+.ulist1{ 
+  list-style-image: url(./images/settings.png);
+}
+.ulist2{
+  list-style-image: url(./images/gamepad.png); 
+}
+.olist{
+  list-style-image: url(./images/placeholder.png);
+}
+.ulist3{
+  list-style-image: url(./images/attachment.png);
+  color: rgb(243, 241, 241);
+  margin-top: 300px;
+  margin-left: 300px;
+  display: flex;
+  position: absolute;
+}
+.ulist3 li{
+  padding-top: 35px;
+  margin-left: -35px;
+  width: 200px;
+}
+.caption{
+  font-Weight: bold;
+  color: black;
+}
+
+/* Paragraph and lists */
+
+/*MAP*/
+.Map {
+  position: absolute;
+  bottom:-110px;right: 300px;
+}
+.Buttons{
+  padding-top: 15px;
+  margin-left: 90px;
+}
+#mapCity{
+  text-decoration:none; 
+  max-width:100%;
+  width:300px;
+  height:300px;
+}
+/*MAP*/
+/*ABOUT.HTML*/
+
+/*CONTACT.HTML*/
+#h2b
+{
+  position: absolute;
+  top:75px;
+  left:10px;
+  margin-left: 70px;
+  font-size: 30px;
+}
+
+.control-label{  
+  display: inline-block; 
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 570px;
+  color:white;
+  font-size: 25px;
+}
+.control-label label{
+  width: 100%;
+  margin-right: 1em;  
+}
+.control-label input,textarea{
+  float: right;  
+}
+.submitButton{
+  margin-left:90px;
+  margin-top:40px;
+}
+
+/*CONTACT.HTML*/

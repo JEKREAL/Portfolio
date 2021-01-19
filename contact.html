@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evgenii's portfolio</title>
+    <link rel="stylesheet" href="conf.css">
+</head>
+<body >
+    <script src="footer.js"></script>   
+    <h2 id="h2b">Contact me</h2>
+<!-- NAVIGATION BAR -->
+    <div class="container">
+        <nav  id='navbar'>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </div>
+    <!-- NAVIGATION BAR -->
+    
+    <!-- INPUT -->
+    <section class='control'>
+    <form class='control-label' >
+        <label for="name">First name *</label>
+        <input type="text" id="name" name="name"  required><br><br>
+        <label for="last-name">Last name</label>
+        <input type="text" id="last-name"  name="last-name"><br><br>
+        <label for="email">Email *</label>
+        <input type="email" id="email"  name="email" required><br><br>
+        <label for="comments">Comments: *</label>
+        <textarea id="comments" name="comments"  required></textarea><br><br>
+        <label for="additional" >Please rate my page(0 to 10): *</label >
+            <input type="number" id="additional" name="additional" min="0" max="10" style="width:42px;" required><br><br>
+        <button type="submit" id="submitButton" onclick="myFunction()" >Submit</button>
+    </form> 
+    </section>    
+    
+    <footer>
+        <div class="bottom">
+            <a href="index.html" class="bottom-link">Home</a>
+            <a href="about.html" class="bottom-link">About</a>
+            <a href="contact.html" class="bottom-link">Contact</a>  
+        </div><br><br>
+        <div class="lang"></div>
+    </footer>
+</body> 
+</html>
