@@ -1,9 +1,7 @@
 # Portfolio
 My first webpage portfolio 
 
-====================
-Index Page:
-====================
+=========Index Page:===========
 
 1. For navigation bar:
 
