@@ -1,5 +1,6 @@
 # Portfolio
 My first webpage portfolio 
+
 ====================
 Index Page:
 ====================
@@ -33,6 +34,7 @@ CSS
 
 JAVASCRIPT 
 - Created the function to generate footer text to HTML
+
 ====================
 About Page:
 ====================
