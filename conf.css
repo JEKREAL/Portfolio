@@ -185,16 +185,16 @@ nav a:hover {
   margin-top: -10px;
 }
 .ulist1{ 
-  list-style-image: url(./images/settings.png);
+  list-style-image: url(./settings.png);
 }
 .ulist2{
-  list-style-image: url(./images/gamepad.png); 
+  list-style-image: url(./gamepad.png); 
 }
 .olist{
-  list-style-image: url(./images/placeholder.png);
+  list-style-image: url(./placeholder.png);
 }
 .ulist3{
-  list-style-image: url(./images/attachment.png);
+  list-style-image: url(./attachment.png);
   color: rgb(243, 241, 241);
   margin-top: 300px;
   margin-left: 300px;
