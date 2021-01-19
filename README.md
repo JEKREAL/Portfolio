@@ -76,11 +76,11 @@ CSS
 
 JAVASCRIPT
 -For submit button using script located in FOOTER.JS file. This script disabling submit button when all of the input fields are empty and display entered info when clicking on submit.
- It is not completed in a required way :( ( Submit button becomes enabled when just one of required fields filled in.). WORKING ON IT.
+ It is not completed in a required way :( ( Submit button becomes enabled when just one of required fields filled in.). 
  
 NOTE - Managed to do AJAX version of this script (attached), it works better , but have some issues(Need to fill page rate field manually to enable submit button).
 
 
 ISSUES, QUESTION
 - FOOTER LINKS DON'T WORK WELL and ON THE ABOUT PAGE FOOTER not alligned to the left. 
-- WHY FOOTER.JS SCRIPT ARE NOT WORKING WELL WITHOUT windows.onload function.
+
